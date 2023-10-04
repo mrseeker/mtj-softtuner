@@ -196,5 +196,22 @@
       "eos_token": [50256],
       "max_batch_size": 2048
     }
-  }
+  },
+  "pythia-12b": {
+    "tokenizer_id": "EleutherAI/pythia-14m",
+    "newlinemode": "n",
+    "params": {
+      "hidden_size": 5120,
+      "initializer_range": 0.02,
+      "intermediate_size": 20480,
+      "layer_norm_eps": 1e-05,
+      "max_position_embeddings": 2048,
+      "model_type": "gpt_neox",
+      "num_attention_heads": 40,
+      "num_hidden_layers": 36,
+      "rotary_emb_base": 10000,
+      "rotary_pct": 0.25,
+      "tie_word_embeddings": false,
+      "vocab_size": 50688
+    }
 }
